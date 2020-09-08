@@ -17,7 +17,7 @@ class NavigationBar extends Component {
 
             const leftNavContents = (
         <>
-            <h1> 🤠</h1>  <h3 className={'logoHeading'}> MTY Departamentos </h3>
+            <h1> 🤠</h1>  <h3 className={'logoHeading'}> Depas MTY </h3>
         </>
     );
 
@@ -33,7 +33,6 @@ class NavigationBar extends Component {
         <>
             <Button label="Price" className="p-button-outlined subNavigationButton"/>
             <Button label="Beds & Baths" className="p-button-outlined subNavigationButton"/>
-            {/*<Button label="Primary" className="p-button-outlined subNavigationButton"/>*/}
         </>
     );
 

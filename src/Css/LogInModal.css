@@ -5,3 +5,23 @@
 .logInModalHeading {
     text-align: center;
 }
+
+.logInModal .p-tabmenu .p-tabmenu-nav{
+    justify-content: center !important;
+}
+
+.logInInput {
+    width: 100%;
+}
+
+.logInSignUpFormButton {
+    width: 100%;
+    top:2em;
+    margin-bottom:4em !important;
+    margin: auto;
+}
+
+.landLordCheckBox{
+    justify-content: center;
+    margin-top:6em;
+}
