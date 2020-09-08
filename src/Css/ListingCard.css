@@ -1,0 +1,13 @@
+.cardHeaderImage {
+    max-height: 150px;
+    overflow: hidden;
+}
+
+.listingCardContainer {
+    margin: auto;
+}
+
+.listingCard {
+    border-bottom:3px solid #673AB7;
+    border-radius: 0px !important;
+}

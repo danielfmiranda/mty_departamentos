@@ -1,0 +1,43 @@
+.navigationBar {
+    background-color: #f7f7f7 !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-right: 0px !important;
+    height: 4.1em;
+    border: solid rgba(0, 0, 0, 0.12) !important;
+    border-width: 0 0 1px 0 !important;
+}
+
+.subNavigationBar {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-right: 0px !important;
+    height: 3.1em;
+    border: solid rgba(0, 0, 0, 0.12) !important;
+    border-width: 0 0 1px 0 !important;
+    z-index: 999 !important;
+    position: relative;
+}
+
+.subNavigationButton {
+    height: 2.1em;
+    margin-right: 0.6em !important;
+}
+
+.logInButton {
+    height: 4.1em !important;
+    border-radius: 0px !important;
+    width: 10em !important;
+}
+
+.logoHeading {
+    padding-left: 5px;
+}
+
+.currencyDropDown {
+    transform: scale(0.8);
+}
+
+/*.logInButton{*/
+/*    height:100% !important;*/
+/*}*/
