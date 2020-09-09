@@ -38,6 +38,15 @@
     transform: scale(0.8);
 }
 
-/*.logInButton{*/
-/*    height:100% !important;*/
-/*}*/
+.priceButtonOverlayPanel {
+    top:2em !important;
+}
+
+.selectFilterButtons.p-selectbutton .p-button.p-highlight {
+    background-color: #673ab7 !important;
+    color:white !important;
+}
+
+.priceDropDownFilter {
+    transform: scale(0.8);
+}

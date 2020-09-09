@@ -1,13 +1,24 @@
 .cardHeaderImage {
-    max-height: 150px;
+    max-height: 160px;
     overflow: hidden;
 }
 
 .listingCardContainer {
     margin: auto;
+
 }
 
 .listingCard {
-    border-bottom:3px solid #673AB7;
+    border-bottom: 3px solid #673AB7;
     border-radius: 0px !important;
+    transition-duration: 0.2s;
+
+}
+
+.listingCard:hover {
+    cursor: pointer;
+    background-color: #EEE;
+    transition-duration: 0.2s;
+    transform:scale(1.01);
+
 }

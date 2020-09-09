@@ -10,7 +10,6 @@ class Map extends Component {
         return (
             <div className={'mapContainer'}>
                 <h6 style={{textAlign:'center',paddingTop:'0px !important',marginTop:'0px !important'}}> This will be the map component</h6>
-
             </div>
         );
     }
