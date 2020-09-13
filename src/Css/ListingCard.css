@@ -17,7 +17,7 @@
 
 .listingCard:hover {
     cursor: pointer;
-    background-color: #EEE;
+    background-color: #e3dede !important;
     transition-duration: 0.2s;
     transform:scale(1.01);
 

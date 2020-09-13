@@ -6,6 +6,7 @@
     padding-bottom:0px !important;
     padding-right:0px !important;
     margin-right: 0px !important;
+ z-index: 2;
 }
 
 .listingContainerCardContents{
