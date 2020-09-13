@@ -5,6 +5,7 @@ import Map from './Components/Map'
 import PrimeReact from 'primereact/utils';
 import ListingContainer from './Components/ListingContainer';
 import LogInModal from './Components/LogInModal';
+import ListingDetail from './Components/ListingDetail';
 
 
 class App extends Component {
@@ -43,7 +44,8 @@ class App extends Component {
                         <ListingContainer/>
                     </div>
                 </div>
-                <LogInModal isLogInModalActive={this.state.isLogInModalActive} closeLogInModal={this.closeLogInModal}/>
+                {/*<LogInModal isLogInModalActive={this.state.isLogInModalActive} closeLogInModal={this.closeLogInModal}/>*/}
+                <ListingDetail/>
             </div>
         );
     }

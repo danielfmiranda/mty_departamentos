@@ -4,6 +4,7 @@ import {GMap} from 'primereact/gmap';
 import '../Css/Map.css'
 
 class Map extends Component {
+
     constructor() {
         super();
     }
