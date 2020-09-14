@@ -13,7 +13,8 @@ class App extends Component {
         super(props);
         PrimeReact.ripple = true;
         this.state = {
-            isLogInModalActive: false
+            isLogInModalActive: false,
+            isDetailModalActive: false
         }
     }
 
@@ -29,6 +30,19 @@ class App extends Component {
         })
     }
 
+     listingDetailCardClick = () => {
+        console.log("Yes")
+           this.setState({
+            isDetailModalActive: true
+        })
+    }
+
+    closeDetailModal = () => {
+           this.setState({
+            isDetailModalActive: false
+        })
+    }
+
 
     render() {
         return (
@@ -41,11 +55,11 @@ class App extends Component {
                         <Map/>
                     </div>
                     <div className=" p-xl-5 p-lg-4 p-md-12 listingContainerCard">
-                        <ListingContainer/>
+                        <ListingContainer listingDetailCardClick={this.listingDetailCardClick} logInButtonClick={this.logInButtonClick}/>
                     </div>
                 </div>
-                {/*<LogInModal isLogInModalActive={this.state.isLogInModalActive} closeLogInModal={this.closeLogInModal}/>*/}
-                <ListingDetail/>
+                <LogInModal isLogInModalActive={this.state.isLogInModalActive} closeLogInModal={this.closeLogInModal}/>
+                <ListingDetail isDetailModalActive={this.state.isDetailModalActive} closeDetailModal={this.closeDetailModal}/>
             </div>
         );
     }

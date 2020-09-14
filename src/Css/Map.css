@@ -5,7 +5,7 @@
 .googleMapComponent {
     position: absolute !important;
     width: 57.9%;
-    min-height: 100%;
+    min-height: 85.5vh;
     overflow: hidden;
     z-index: 1;
 }

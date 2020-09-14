@@ -1,0 +1,55 @@
+.listingDetailsPhotoContainer {
+    overflow-y: scroll;
+    max-height: 79vh;
+
+
+}
+
+.listingDetailsAndContactContainer {
+    margin-top: 8px;
+    border-top: 1px solid rgb(216, 216, 216) !important;
+    border-bottom: 1px solid rgb(216, 216, 216) !important;
+
+    padding-left: 1em !important;
+    max-height: 77vh;
+    -ms-overflow-style: none; /* IE and Edge */
+
+
+}
+
+.listingDetailContainer {
+    height: 100vh;
+    width: 80em;
+    max-width: 1250px;
+}
+
+.mainButtonContainer {
+    border-bottom: 1px solid rgb(216, 216, 216) !important;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    text-align: center;
+}
+
+.mainButtonContainer button {
+    min-width: 190px;
+    margin-left: .6em;
+    margin-right: .6em;
+}
+
+.imageContainer {
+    padding: 3px !important;
+    object-fit: fill !important;
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.imageContainer img {
+    height: 100%;
+    width: 100%;
+}
+
+.imageContainer img:hover {
+cursor: pointer;
+}
